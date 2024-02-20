@@ -3,46 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的博客</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-        .nav {
-            background-color: #555;
-            overflow: hidden;
-        }
-        .nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .main-content {
-            padding: 20px;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-  
+    <title>我的个人网站</title>
+    <!-- 链接到CSS样式表，用于样式定制 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 标题 -->
+        <h1>欢迎来到我的个人网站</h1>
+        <!-- 介绍 -->
+        <p>Hey！Welcome to my cyberspace where I post my oooverthinking ~
+</p>
+        <!-- 其他内容，如文章、图片等 -->
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>版权所有 &copy; 2024 R</p>
+    </footer>
+</body>
+</html>
